@@ -183,7 +183,7 @@ MIT License - Libre d'utilisation
 Pour toute question :
 - 📧 Ouvrez une [Issue](https://github.com/denisyaniss/Inventory-management-for-small-businesses/issues)
 - 💬 Consultez la [documentation](docs/)
-
+- officialdenis304@gmail.com
 ---
 
 **Développé avec ❤️ pour faciliter la gestion des petites entreprises**
