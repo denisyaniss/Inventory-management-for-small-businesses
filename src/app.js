@@ -15,6 +15,11 @@ const productsRoutes = require('./routes/products');
 const categoriesRoutes = require('./routes/categories');
 const stockRoutes = require('./routes/stock');
 const reportRoutes = require('./routes/reports');
+const suppliersRoutes = require('./routes/suppliers');
+const purchaseOrdersRoutes = require('./routes/purchaseOrders');
+const deliveryNotesRoutes = require('./routes/deliveryNotes');
+const locationsRoutes = require('./routes/locations');
+const barcodesRoutes = require('./routes/barcodes');
 
 // API Routes
 app.use('/api/auth', authRoutes);
@@ -22,6 +27,11 @@ app.use('/api/products', productsRoutes);
 app.use('/api/categories', categoriesRoutes);
 app.use('/api/stock', stockRoutes);
 app.use('/api/reports', reportRoutes);
+app.use('/api/suppliers', suppliersRoutes);
+app.use('/api/purchase-orders', purchaseOrdersRoutes);
+app.use('/api/delivery-notes', deliveryNotesRoutes);
+app.use('/api/locations', locationsRoutes);
+app.use('/api/barcodes', barcodesRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {
